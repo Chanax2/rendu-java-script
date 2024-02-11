@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <title>IIM</title>
+  </head>
+  <body>
+
+
+
+    
+      <!-- Slider main container -->
+      <div class="swiper mon-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide slide-code">
+            <p class="sub-title">Découvrez des gens qui</p>
+            <p class="title">codent</p>
+          </div>
+
+          <div class="swiper-slide slide-3d">
+              <p class="sub-title">Découvrez l'axe </p>
+            <p class="title">3d </p>
+          </div>
+
+          <div class="swiper-slide slide-JV">
+              <p class="title">découvrez les jeux fait par nos étudients commee:</p>
+              <p class="sub-title">elypse</p>
+          </div>
+          
+        </div>
+
+
+
+
+    <main class="portfolio">
+      <div class="filters">
+        <ul>
+          <li data-filter="all" class="active">Tous le projet</li>
+          <li data-filter="JV" >Jeux vidéo</li>
+          <li data-filter="3D" >3D</li>
+          <li data-filter="Code" >Code</li>
+          <a href="contact.html"> <button class="contact"  >nous contacter</button> </a>
+        </ul>
+      </div>
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="JV">
+          <div class="card-header">
+            <p class="card-title">Elypse</p>
+            <div class="card-axe">Jeux vidéo</div>
+          </div>
+
+          <a href="./elypse.jpg">
+            <img src="./elypse.jpg" alt="" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="Code">
+          <div class="card-header">
+            <p class="card-title">Code</p>
+            <div class="card-axe">Code</div>
+          </div>
+
+          <a href="../wiper/code.webp">
+            <img src="../wiper/code.webp" alt="" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="3D">
+          <div class="card-header">
+            <p class="card-title">3D</p>
+            <div class="card-axe">Helck</div>
+          </div>
+
+          <a href="././helck.webp">
+            <img src="./helck.webp" alt="" />
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- tab trop stylé -->
+
+      <ul class="tab">
+        <li class="tab-CODE tab-active">Axe coding</li>
+        <li class="tab-3D">Axe 3d</li>
+        <li class="tab-JV">Axe jeux-vidéo</li>
+
+      </ul>
+
+      <div class="content div-CODE div-active">LE CODE C'EST TROP COOL</div>
+      <div class="content div-3D">si vous voyez ça alors le tab fonctionne!</div>
+      <div class="content div-JV">vous êtes un très bon prof</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js" integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <script src="main.js"></script>
+
+    
+  </body>
+</html>
